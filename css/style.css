@@ -1,0 +1,94 @@
+html,
+body {
+  height: 100%;
+}
+.bg {
+  background-image: url(../img/bg.jpg);
+  overflow: hidden;
+  background-color: #121936;
+  background-size: 100% 100% ;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: #fff;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.next {
+  font-size: 40px;
+  color: #fff;
+  line-height: 1.5;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+
+.next .title {
+  color: yellow;
+}
+.el-select {
+  width: 120px;
+  margin-right: 10px;
+}
+.batch {
+  position: absolute;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  top: 50%;
+  color: #fff;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.player {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  width: 150px;
+  background: #fff;
+  line-height: 30px;
+  color: #000;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  padding: 10px 0;
+}
+
+.lucky-dog {
+  display: inline-block;
+  text-align: center;
+  width: 90px;
+  background: #fff;
+  line-height: 30px;
+  color: #000;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  padding: 5px 0;
+}
+
+.result {
+  width: 200px;
+  position: absolute;
+  right: 10px;
+  top: 100px;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
